@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+
+<head>
+    <meta charset="utf-8">
+
+    <script src="./index.js"></script>
+
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2">
+    <link rel="preload" as="image" href="_assets/images/1778077422-logo-1.svg" fetchpriority="high">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="theme-color" content="">
+    <title>Hotel Lisboa – Legendäres Casino-Hotel in Macau</title>
+    <meta name="description"
+          content="Entdecken Sie Hotel Lisboa, unser traditionsreiches Casino-Hotel im Herzen von Macau mit markanter Architektur, Casino Lisboa, Gastronomie, Shopping und geprüften Hoteldaten.">
+    <link rel="canonical" href="https://hotel-lisboa-casino.com">
+    <meta property="og:title" content="Hotel Lisboa – Legendäres Casino-Hotel in Macau">
+    <meta property="og:description"
+          content="Entdecken Sie Hotel Lisboa, unser traditionsreiches Casino-Hotel im Herzen von Macau mit markanter Architektur, Casino Lisboa, Gastronomie, Shopping und geprüften Hoteldaten.">
+    <meta property="og:url" content="https://hotel-lisboa-casino.com">
+    <meta property="og:site_name" content="Hotel Lisboa – Legendäres Casino-Hotel in Macau">
+    <meta property="og:locale" content="de-DE">
+    <meta property="og:image" content="_assets/images/1778077548-main.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="hotel-lisboa-casino.com">
+    <meta name="twitter:title" content="Hotel Lisboa – Legendäres Casino-Hotel in Macau">
+    <meta name="twitter:description"
+          content="Entdecken Sie Hotel Lisboa, unser traditionsreiches Casino-Hotel im Herzen von Macau mit markanter Architektur, Casino Lisboa, Gastronomie, Shopping und geprüften Hoteldaten.">
+    <meta name="twitter:image" content="_assets/images/1778077548-main.webp">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <link rel="icon" href="_assets/images/1778077558-favicon.svg" type="image/x-icon" sizes="16x16">
+    <meta name="language" content="de-DE">
+
+    <link rel="apple-touch-icon" href="_assets/images/1778077413-favicon.svg" sizes="96x96">
+    <link rel="icon" href="_assets/images/1778077413-favicon.svg" type="image/webp" sizes="192x192">
+
+    <link rel="preload" href="_assets/images/1778077610-main.webp" as="image" fetchpriority="high">
+
+    <link rel="alternate" hreflang="x-default" href="https://hotel-lisboa-casino.com" />
+    <link rel="alternate" hreflang="de" href="https://hotel-lisboa-casino.com" />
+</head>
+
+<body>
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="minus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#634c18"
+                d="M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 32 32"
+>
+    <symbol id="globe-icon" viewBox="0 0 32 32">
+        <path
+                fill="#fb333d"
+                d="M32.032 16c0-8.501-6.677-15.472-15.072-15.969-0.173-0.019-0.346-0.032-0.523-0.032-0.052 0-0.104 0.005-0.156 0.007-0.093-0.002-0.186-0.007-0.281-0.007-8.84 0-16.032 7.178-16.032 16.001s7.192 16.001 16.032 16.001c0.094 0 0.188-0.006 0.281-0.008 0.052 0.002 0.104 0.008 0.156 0.008 0.176 0 0.349-0.012 0.523-0.032 8.395-0.497 15.072-7.468 15.072-15.969zM29.049 21.151c-0.551-0.16-1.935-0.507-4.377-0.794 0.202-1.381 0.313-2.84 0.313-4.357 0-1.196-0.069-2.354-0.197-3.469 3.094-0.37 4.45-0.835 4.54-0.867l-0.372-1.050c0.695 1.659 1.080 3.478 1.080 5.386 0 1.818-0.352 3.555-0.987 5.151zM8.921 16c0-1.119 0.074-2.212 0.21-3.263 1.621 0.127 3.561 0.222 5.839 0.243v6.939c-2.219 0.021-4.114 0.111-5.709 0.234-0.22-1.319-0.34-2.715-0.34-4.154zM16.967 2.132c2.452 0.711 4.552 4.115 5.492 8.628-1.512 0.12-3.332 0.209-5.492 0.229v-8.857zM14.971 2.156v8.832c-2.136-0.021-3.965-0.109-5.502-0.226 0.96-4.457 3.076-7.836 5.502-8.606zM14.971 21.913l0 7.929c-2.263-0.718-4.256-3.705-5.293-7.719 1.492-0.11 3.253-0.189 5.292-0.21zM16.967 29.868l-0-7.955c2.061 0.020 3.814 0.102 5.288 0.217-1.019 4.067-3 7.076-5.288 7.738zM16.967 19.92l0-6.939c2.291-0.021 4.218-0.118 5.818-0.25 0.131 1.053 0.203 2.147 0.203 3.268 0 1.442-0.116 2.84-0.329 4.16-1.575-0.128-3.462-0.219-5.692-0.24zM28.588 9.81c-0.302 0.094-1.564 0.453-4.094 0.751-0.564-2.998-1.584-5.561-2.91-7.412 3.048 1.325 5.535 3.697 7.005 6.661zM11.213 2.831c-1.632 1.873-2.963 4.568-3.691 7.754-2.265-0.245-3.623-0.534-4.166-0.665 1.585-3.27 4.407-5.836 7.856-7.088zM2.614 11.787c0.385 0.104 1.841 0.467 4.549 0.766-0.155 1.107-0.24 2.26-0.24 3.447 0 1.509 0.136 2.96 0.383 4.334-2.325 0.251-3.755 0.552-4.396 0.706-0.607-1.566-0.944-3.264-0.944-5.041 0-1.467 0.228-2.883 0.649-4.213zM3.784 22.886c0.727-0.154 2.029-0.39 3.956-0.591 0.759 2.803 1.993 5.175 3.473 6.874-3.16-1.148-5.79-3.398-7.429-6.282v0zM21.583 28.849c1.195-1.665 2.14-3.907 2.728-6.525 1.982 0.227 3.226 0.494 3.853 0.652-1.5 2.596-3.808 4.669-6.581 5.873z">
+        </path>
+    </symbol>
+</svg>
+
+<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="star-icon" viewBox="0 0 32 31">
+        <path d="M10.0431 24.5932L15.8898 21.0667L21.7365 24.6396L20.2052 17.9577L25.3559 13.5031L18.5811 12.8999L15.8898 6.58913L13.1985 12.8535L6.42371 13.4567L11.5744 17.9577L10.0431 24.5932ZM15.8898 25.4285L8.187 30.0687C7.84672 30.2853 7.49096 30.3781 7.11975 30.3471C6.74853 30.3162 6.42371 30.1925 6.1453 29.9759C5.86688 29.7594 5.65034 29.489 5.49566 29.1648C5.34099 28.8406 5.31005 28.4768 5.40286 28.0734L7.44456 19.3034L0.623417 13.4103C0.314068 13.1319 0.121034 12.8145 0.0443157 12.4581C-0.0324028 12.1017 -0.00951111 11.754 0.112991 11.415C0.235493 11.0759 0.421103 10.7975 0.669819 10.5797C0.918536 10.362 1.25882 10.2227 1.69067 10.1621L10.6927 9.37327L14.1729 1.11366C14.3276 0.742438 14.5676 0.464023 14.8931 0.278414C15.2185 0.0928044 15.5507 0 15.8898 0C16.2288 0 16.5611 0.0928044 16.8865 0.278414C17.2119 0.464023 17.452 0.742438 17.6067 1.11366L21.0869 9.37327L30.0889 10.1621C30.522 10.224 30.8623 10.3632 31.1098 10.5797C31.3572 10.7963 31.5428 11.0747 31.6666 11.415C31.7903 11.7553 31.8138 12.1036 31.7371 12.46C31.6604 12.8163 31.4667 13.1331 31.1562 13.4103L24.335 19.3034L26.3767 28.0734C26.4695 28.4756 26.4386 28.8394 26.2839 29.1648C26.1292 29.4902 25.9127 29.7606 25.6343 29.9759C25.3559 30.1912 25.0311 30.315 24.6598 30.3471C24.2886 30.3793 23.9329 30.2865 23.5926 30.0687L15.8898 25.4285Z" fill="#fbff00"/>
+    </symbol>
+</svg>
+
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="plus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#634c18"
+                d="M228 128a12 12 0 0 1-12 12h-76v76a12 12 0 0 1-24 0v-76H40a12 12 0 0 1 0-24h76V40a12 12 0 0 1 24 0v76h76a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="33"
+        height="32"
+        viewBox="0 0 33 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="play-icon" viewBox="0 0 33 32">
+        <path
+                d="M16.8334 0.0786133C7.9606 0.0786133 0.767578 7.20678 0.767578 15.9998C0.767578 24.7929 7.9606 31.921 16.8334 31.921C25.7061 31.921 32.8992 24.7929 32.8992 15.9998C32.8992 7.20678 25.7061 0.0786133 16.8334 0.0786133ZM22.3861 16.8438L14.3532 21.8192C14.1907 21.9197 14.0059 21.9703 13.821 21.9703C13.6536 21.9703 13.4859 21.929 13.3342 21.8454C13.015 21.67 12.8169 21.3372 12.8169 20.9752V11.0244C12.8169 10.6625 13.015 10.3296 13.3342 10.1543C13.6533 9.97788 14.0436 9.98857 14.3532 10.1805L22.3861 15.1559C22.6796 15.3381 22.858 15.6568 22.858 15.9998C22.858 16.3428 22.6796 16.6616 22.3861 16.8438Z"
+                fill="#fb333d"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="information-outline" viewBox="0 0 20 20">
+        <path
+                d="M9 7H11V5H9V7ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0ZM9 15H11V9H9V15Z"
+                fill="#222829"
+        />
+    </symbol>
+</svg>
+
+<div class="wrapper">
+    <header class="header" id="top">
+        <div class="headerBlock">
+            <div class="headerLogoContainer"><a href="https://hotel-lisboa-casino.com" aria-label="Main page"><img class="header__logo logo"
+                                                                                                     src="_assets/images/1778077422-logo-1.svg" alt="Hotel Lisboa Logo" /></a></div>
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" target="_blank" href="casino.html?id=example-offer-id"
+                                         aria-label="Registrieren" id="navSignUp"> Registrieren </a></li>
+                <li class="nav__item nav__itemLarge"><a class="nav__link nav__linkLarge" target="_blank"
+                                                        href="casino.html?id=example-offer-id" aria-label="Jetzt spielen" id="navPlayNow"> Jetzt spielen </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <section class="heroContainer">
+            <div class="hero">
+                <div class="heroBlock block">
+                    <div class="heroGroup">
+                        <div class="heroTextGroup">
+                            <p class="heroText heroTextDesktop">Exklusives Willkommensangebot von</p>
+                            <p class="heroText heroTextMobile">Exklusives Willkommensangebot von</p>
+                            <p class="heroText heroTextBonus" id="bonusText"></p>
+                        </div><a target="_blank" class="heroLink" id="bonusLink" href="/" aria-label="Spiel starten"><span
+                            class="heroButton btn btn--large">Bonus sichern</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="heroUnder">
+                <h1 class="heroText heroMainTitle">Hotel Lisboa Casino Macau</h1>
+            </div>
+        </section>
+        <div class="bonusesCircleContainer">
+            <section class="topCasino">
+                <div class="container">
+                    <div class="topCasinoBlock block">
+                        <h2 class="topCasinoTitle title"><span>Top-Casino <span id="countryName"></span></span>
+                        </h2>
+                        <div class="topCasinoGroup" id="casinoCardContainer">
+                            <!-- Casino cards will be dynamically inserted here --></div><button
+                            class="topCasinoButton btn btn--large" id="showMoreButton"> Alle Casino </button>
+                    </div>
+                </div>
+            </section>
+            <section class="bonusDetails" id="bonuses">
+                <div class="container">
+                    <div class="bonusDetailsBlock block">
+                        <h2 class="bonusDetailsTitle title"><span>Bonusdetails</span></h2>
+                        <div class="bonusDetailsGroup">
+                            <div class="bonusTable">
+                                <div class="bogradientContainer">
+                                    <div class="bonusTableRow bonusTableHeader">
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusHeaderCasino">Kasino</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusDetailsWelcome">Boni</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText">Rate</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusHeaderTextSpins">Frei Spins</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText">Mehr Info</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusClaimBonus">Erhalten</p>
+                                        </div>
+                                    </div>
+                                </div><!-- Bonus rows will be dynamically inserted here -->
+                                <div id="bonusTableRows"></div>
+                            </div>
+                        </div><button class="bonusDetailsButton btn btn--large" id="refreshButton"> Aktualisieren
+                    </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="advantagesCircleContainer">
+            <section class="advantages">
+                <div class="container">
+                    <div class="advantagesBlock block">
+                        <div class="advantagesDescription">
+                            <h2 class="advantagesTitle title">Vorteile</h2>
+                            <ul class="advantagesList">
+                                <li class="providersGroup"></li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Zentrale Macau-Lage</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Ikonisches Hoteldesign</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Casino Lisboa Zugang</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Große Zimmerauswahl</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Gourmet-Dining vor Ort</p>
+                                </li>
+                                <li class="providersGroup">Unsere Vorteile zeigen die geprüften Stärken von Hotel Lisboa: eine zentrale Lage im Geschäftsviertel von Macau, direkten Bezug zu Casino Lisboa, markante Architektur, umfangreiche Unterkunftsoptionen und ein vielseitiges Erlebnis für unsere Gäste.</li>
+                            </ul><a class="advantagesLink" id="advantagesLink" target="_blank" href="/" aria-label="Mehr erfahren"><span
+                                class="advantagesButton btn btn--large">Mehr erfahren</span></a>
+                        </div>
+                        <div class="advantagesMobile">
+                            <h2 class="advantagesTitle title advantagesAppTitle">Hotel Lisboa App</h2><img
+                                class="advantagesMobilePhone" src="_assets/images/1778077812-mobile.webp" title="Hotel Lisboa Mobile"
+                                alt="Hotel Lisboa App" />
+                            <div class="advantagesStoreGroup"><a href="/" id="appStoreLink" aria-label="Play game"
+                                                                 target="_blank"><img class="advantagesStore" width="181" height="53"
+                                                                                      src="./assets/images/advantages/app-store.webp" alt="iOs App " title="Hotel Lisboa App"/></a><a
+                                    href="/" id="googlePlayLink" aria-label="Play game" target="_blank"><img
+                                    class="advantagesStore" width="181" height="54"
+                                    src="./assets/images/advantages/google-play.webp" alt="android App Hotel Lisboa App" title="Hotel Lisboa App" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="games" id="games">
+                <div class="container">
+                    <div class="gamesBlock block">
+                        <h2 class="gamesTitle title"><span>Beliebte Spiele</span></h2>
+                        <div class="gamesGroup" id="gamesContainer"><!-- Games will be dynamically inserted here -->
+                        </div><a target="_blank" class="gamesLink" id="allGamesLink" href="/" aria-label="Alle Spiele"><span
+                            class="gamesButton btn btn--large">Alle Spiele</span></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Über das Casino</h2>
+                        <div class="historyGroup">
+                            <div class="historyColumn">
+                                <div class="historyText">
+                                    <p class="historyDescription"></p>
+                                    <ul class="historyList">
+                                        <li class="historyItem">Unser Hotel wurde 1970 eröffnet.</li>
+                                        <li class="historyItem">Unsere Unterkunft bietet nahe an 1.000 Zimmer und Suiten.</li>
+                                        <li class="historyItem">Unsere Weinauswahl umfasst über 17.000 Labels.</li>
+                                    </ul>
+                                    <p class="historyDescription">Hotel Lisboa ist unser traditionsreiches Casino-Hotel im Herzen von Macau. Das Hotel wurde 1970 eröffnet und wird auf der offiziellen Website als eines der bekanntesten Hotels der Stadt beschrieben, geprägt durch eine markante Architektur mit portugiesischen und chinesischen Designelementen.</p>
+                                </div>
+                            </div>
+                            <div class="historyColumn"><img class="historyImage"
+                                                            src="_assets/images/1778077970-desktop.webp" alt="Hotel Lisboa" title="Hotel Lisboa Desktop"/></div>
+                        </div>
+                        <p class="historyDescription">Unser Standort liegt im Central Business District von Macau. Für unsere Gäste bedeutet das eine praktische Lage: Die offizielle Hotelinformation nennt etwa 5 bis 10 Minuten Fahrzeit zum Macau Outer Harbour Ferry Terminal und etwa 15 bis 20 Minuten zum Macau International Airport.
+
+Unser Haus bietet nahe an 1.000 Zimmer und luxuriöse Suiten, die laut offizieller Hotelbeschreibung mit modernen Einrichtungen ausgestattet sind. Viele Zimmer bieten zudem Ausblicke auf das Südchinesische Meer und wichtige Wahrzeichen von Macau.
+
+Casino Lisboa gehört zum SJM-Portfolio: SJM Holdings bestätigt offiziell, dass SJM Casino Lisboa besitzt und betreibt. Dadurch ist Hotel Lisboa eng mit einem der bekanntesten Casino-Namen auf der Macau-Halbinsel verbunden und bietet unseren Gästen Zugang zu einem etablierten Casino- und Hospitality-Umfeld.
+
+Unsere Gäste können ihren Aufenthalt durch Restaurants, Shopping und Veranstaltungsflächen ergänzen. Hotel Lisboa nennt eine Weinauswahl von über 17.000 Labels, eine Shopping Arcade sowie 1.603 m² Meeting- und Bankettfläche mit neun multifunktionalen Räumen.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Lisboa Glanz</h2>
+                        <div class="historyDescription"><p>Bei uns verbindet sich das klassische Macau-Gefühl von Hotel Lisboa mit der Energie des Lisboa Casino in einem traditionsreichen SJM-Umfeld. Wir empfangen unsere Gäste an einer Adresse, die Hotellerie, Gastronomie, Shopping, Freizeitangebote und Casino-Nähe zu einem lebendigen Aufenthalt zusammenführt.</p> <br> <p>Unser Haus steht an der Avenida de Lisboa im Herzen von Macau. Diese zentrale Lage macht den Besuch besonders angenehm für Gäste, die Macau erleben, genießen und dabei kurze Wege zwischen Hotel, Restaurants, Unterhaltung und Stadtatmosphäre schätzen. Wir bieten nahezu 1.000 Zimmer und luxuriöse Suiten, die für Erholung und Komfort gestaltet sind. Vom Aufenthalt im Zimmer bis zum kulinarischen Erlebnis begleiten wir unsere Gäste mit einer Umgebung, die auf Entspannung, Stil und praktische Details setzt.</p> <br> <p>Unsere Zimmerauswahl umfasst Standard Rooms, Royal Tower Rooms, Royal Suites, Deluxe Suites und Two Bedroom Suites. So geben wir unseren Gästen verschiedene Möglichkeiten, den Aufenthalt passend zum Anlass und zur gewünschten Großzügigkeit zu gestalten.</p> <br> <p>Bei uns gehört Gastronomie zu den stärksten Erlebnissen. Hotel Lisboa bietet Gourmet-Dining in Macau und Asien sowie eine umfangreiche Weinsammlung mit mehr als 17.000 Labels, die mit den Restaurants und Lounges unseres Hauses geteilt wird.</p> <br> <p>Guincho a Galera bringt eine besondere portugiesische Note in unser kulinarisches Angebot. Das Restaurant ist die erste internationale Niederlassung des Michelin-Stern-Restaurants Fortaleza do Guincho aus Portugal.</p> <br> <p>Portas do Sol ergänzt unser Haus mit chinesischer Haute Cuisine, saisonalen Spezialitäten und einem umfangreichen Dim-Sum-Angebot. Damit geben wir Gästen eine elegante Möglichkeit, den Besuch bei uns mit chinesischer Küche auf hohem Niveau zu verbinden.</p> <br> <p>Noite e Dia Café sorgt bei uns für flexible All-day-Dining-Momente. Internationale Spezialitäten, À-la-carte-Gerichte und Set Menus machen das Café zu einer praktischen Wahl für verschiedene Tageszeiten.</p> <br> <p>New Furusato setzt bei uns einen japanischen Akzent. Kreative Kaiseki-Menüs, hochwertiges Sashimi und Sushi schaffen eine kulinarische Option für Gäste, die ihre Lisboa-Erfahrung mit japanischer Raffinesse ergänzen möchten.</p> <br> <p>Gallery Lounge bietet unseren Gästen einen ruhigen und gemütlichen Ort für Snacks und Getränke. Vor oder nach dem Casino-Moment, nach dem Shopping oder zwischen Terminen schaffen wir hier eine entspannte Pause im Haus. Unser Lisboa-Erlebnis wird durch die SJM-Welt gestärkt. SJM Resorts ist einer der sechs in Macau zugelassenen Konzessionäre für Casino-Glücksspiele, und SJM besitzt und betreibt Casino Lisboa.</p> <br> <p>Mit der SJM Supreme Card geben wir Mitgliedern Zugang zu exklusiven Vorteilen bei Grand Lisboa Palace Resort, Grand Lisboa Macau, Hotel Lisboa, Jai Alai Oceanus und Partnern von SJM Resorts. So wird der Aufenthalt bei uns Teil eines größeren Mitgliedschaftserlebnisses.</p> <br> <p>Die SJM Supreme Card eröffnet vier Mitgliedsstufen und zusätzliche Vorteile. Dazu gehören ausgewiesene Rabatte in mehr als 50 renommierten Dining- und Spa-Outlets, besondere Shopping-Privilegien und ausgewählte Voucher-Angebote nur für Mitglieder.</p> <br> <p>Bei uns lässt sich ein Besuch angenehm erweitern: erst das zentrale Lisboa-Ambiente, dann ein Essen in einem unserer Restaurants, ein Moment in der Lounge, ein Spaziergang durch die Shopping Arcade oder eine bequeme Rückkehr ins Zimmer.</p> <br> <p>Unser Hotel Lisboa Shopping Arcade bringt Boutiquen für Kleidung, Uhren, Schmuck und Accessoires in das Haus. Damit verbinden wir den Aufenthalt mit Shopping-Komfort, ohne dass Gäste die Lisboa-Atmosphäre verlassen müssen.</p> <br> <p>Wir geben dem Besuch eine klare Balance aus Macau-Tradition, urbaner Lage, Gastronomie, Shopping und Casino-Bezug. Diese Kombination macht unser Haus besonders vielseitig für Gäste, die einen kompakten, stilvollen und zentralen Aufenthalt wünschen.</p> <br> <p>Bei uns steht das positive Besuchserlebnis im Mittelpunkt. Wir schaffen einen Ort, an dem Gäste Macau genießen, sich kulinarisch verwöhnen lassen, die SJM-Mitgliedervorteile entdecken und den Charakter von Hotel Lisboa spüren können. Unser Vorteil ist die Verbindung aus bekannter Lisboa-Adresse, komfortabler Unterkunft, vielseitiger Gastronomie und der Nähe zu Casino Lisboa. Wir machen es leicht, verschiedene Macau-Erlebnisse in einem Aufenthalt zusammenzuführen.</p> <br> <div style="width:100%; max-width:100%; overflow:hidden;"> <table style="width:100%; max-width:100%; border-collapse:collapse; table-layout:fixed; font-family:Arial, sans-serif; font-size:clamp(9px, 2.2vw, 14px); color:#ffffff; background:transparent;">
+<tr>
+  <th style="width:38%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Bestätigter Vorteil
+  </th>
+  <th style="width:62%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Detail zu Hotel Lisboa
+  </th>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Adresse
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Hotel Lisboa befindet sich an der Avenida de Lisboa, Macau.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Unterkunft
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Hotel Lisboa bietet nahezu 1.000 Zimmer und luxuriöse Suiten mit modernen Einrichtungen.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Zimmerkategorien
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Auf der offiziellen Website sind Standard Rooms, Royal Tower Rooms, Royal Suites, Deluxe Suites und Two Bedroom Suites aufgeführt.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Gastronomie
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Hotel Lisboa bietet Gourmet-Dining-Erlebnisse sowie eine Weinsammlung mit mehr als 17.000 Labels, die mit Restaurants und Lounges im Haus geteilt wird.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Restaurants und Lounge
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Zu den aufgeführten Dining-Adressen gehören Guincho a Galera, Portas do Sol, Noite e Dia Café, New Furusato und Gallery Lounge.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Casino Lisboa
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    SJM Holdings bestätigt, dass SJM Casino Lisboa besitzt und betreibt.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    SJM Supreme Card
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Die SJM Supreme Card bietet Mitgliedervorteile bei Grand Lisboa Palace Resort, Grand Lisboa Macau, Hotel Lisboa, Jai Alai Oceanus und SJM-Partnern.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Shopping Arcade
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Die Hotel Lisboa Shopping Arcade bietet Boutiquen für Kleidung, Uhren, Schmuck und Accessoires.
+  </td>
+</tr>
+</table> </div> <br> <p>Nach der Tabelle geht unser Lisboa-Erlebnis mit derselben Stärke weiter: Wir machen den Aufenthalt vielseitig, indem wir Unterkunft, Gastronomie, Shopping und Casino-Bezug in einer zentralen Macau-Adresse zusammenbringen.</p> <br> <p>Unsere kulinarischen Optionen geben Gästen viele Möglichkeiten, ihren Tag zu gestalten. Portugiesische Küche, chinesische Haute Cuisine, internationale Menüs, japanische Spezialitäten und Lounge-Momente liegen bei uns nah beieinander. Mit der Weinsammlung von mehr als 17.000 Labels schaffen wir einen besonderen Rahmen für Genießer. Diese Vielfalt unterstützt unsere Restaurants und Lounges und macht Dining bei uns zu einem starken Bestandteil des Besuchs.</p> <br> <p>Die SJM Supreme Card erweitert den Aufenthalt über Hotel Lisboa hinaus. Mitglieder können ausgewählte Vorteile in mehreren SJM-Destinationen entdecken und ihren Macau-Besuch dadurch noch abwechslungsreicher gestalten.</p> <br> <p>Unser Haus eignet sich für Gäste, die eine zentrale Lage und ein klassisches Macau-Gefühl schätzen. Bei uns verbindet sich die bekannte Lisboa-Identität mit praktischen Services, komfortablen Zimmern und einer reichen Dining-Auswahl. Wir machen es einfach, den Besuch spontan oder geplant zu genießen. Ein Gast kann bei uns wohnen, speisen, einkaufen, entspannen und die Lisboa-Casino-Atmosphäre in direkter Nähe erleben.</p> <br> <p>Mit unserem Hotel, den Restaurants, der Lounge, der Shopping Arcade und der SJM-Verbindung schaffen wir ein vollständiges Macau-Erlebnis, das kompakt, positiv und angenehm zugänglich bleibt.</p></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="">
+            <div class="container">
+                <div class="sprovidersBlock block">
+                    <h2 class="sprovidersTitle title"> Softwareanbieter </h2>
+                    <div class="sprovidersGroup" id="providersContainer">
+                        <!-- Provider images will be dynamically inserted here --></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Lisboa Komfort</h2>
+                        <div class="historyDescription"><p>Bei uns beginnt der praktische Vorteil mit der Lage. Hotel Lisboa liegt an der Avenida de Lisboa und ist über Shuttle-, Limousinen- und lokale Transportangebote gut in den Macau-Aufenthalt integrierbar.</p> <br> <p>Wir verbinden unser Haus mit wichtigen Verkehrspunkten. Der Hotel-Shuttle fährt vom Macau Maritime Ferry Terminal über Hotel Lisboa zum Grand Lisboa Hotel und unterstützt damit eine bequeme Ankunft.</p> <br> <p>Zusätzlich wird der SJM Express zwischen Grand Lisboa, Lisboa Casino und Oceanus Casino geführt. Damit gehört unsere Lisboa-Adresse zu einem praktischen Netzwerk innerhalb der SJM-Welt auf der Macau-Halbinsel. Für Gäste, die mehr Komfort wünschen, bieten wir einen Limousinenservice. Dieser Service kann Fahrten zum Macau Ferry Terminal, zur Border Gate, zum Macau International Airport, für Stadtrundfahrten oder besondere Termine in Macau unterstützen.</p> <br> <p>Unsere Freizeitangebote machen den Aufenthalt angenehm und aktiv. Bei uns finden Gäste einen Fitness Room, einen Indoor Temperature-Controlled Swimming Pool, Shuttle Bus Service, Limousine Service, TurboJet-Informationen, Shopping Arcade und Tour Service. Der Fitness Room ergänzt unser Haus mit Trainingsgeräten in einem gemütlichen Raum. So können Gäste auch während ihres Aufenthalts Bewegung und Komfort miteinander verbinden. Unser indoor temperaturkontrollierter Swimming Pool ist für entspannte Schwimmmomente das ganze Jahr über gedacht. Damit geben wir Gästen eine ruhige Freizeitmöglichkeit direkt im Hotel.</p> <br> <p>Der Tour Service macht die Stadtentdeckung leichter. Unsere Concierge kann maßgeschneiderte geführte Touren arrangieren, damit Gäste Macau und berühmte Sehenswürdigkeiten auf angenehme Weise kennenlernen.</p> <br> <p>Unsere Shopping Arcade erweitert die praktische Seite des Aufenthalts. Kleidung, Uhren, Schmuck und Accessoires sorgen dafür, dass Gäste Shopping in den Lisboa-Besuch integrieren können.</p> <br> <p>Meetings und Banquets gehören ebenfalls zu unserem Angebot. Hotel Lisboa verfügt über 1.603 m² beziehungsweise 17.250 sq. ft. Meeting- und Bankettfläche mit neun multifunktionalen Räumen und moderner audiovisueller Ausstattung.</p> <br> <p>Unsere Function Rooms sind geschmackvoll dekoriert und mit audiovisuellen Einrichtungen ausgestattet. Dadurch schaffen wir einen passenden Rahmen für private Feiern, Bankette, Konferenzen und geschäftliche Anlässe.</p> <br> <p>Portas do Sol im Hotel Lisboa unterstützt Meetings und Events in einem eleganten Umfeld. Für Hochzeiten und Bankette wird eine 470 m² große Fläche genannt, die bis zu 300 Gäste aufnehmen kann. Auch kulinarisch bleibt der praktische Komfort stark. Gäste können je nach Tageszeit und Anlass zwischen Restaurant, Café, japanischer Küche, chinesischer Küche, portugiesischer Inspiration und Lounge-Atmosphäre wechseln.</p> <br> <p>Guincho a Galera verbindet uns mit der portugiesischen Gourmet-Tradition von Fortaleza do Guincho. Dieses Restaurant gibt unserem Haus eine besondere kulinarische Signatur, die sehr gut zur Lisboa-Identität passt.</p> <br> <p>Portas do Sol macht chinesische Haute Cuisine bei uns besonders zugänglich. Saisonale Spezialitäten und Dim Sum geben Gästen eine feine Dining-Wahl innerhalb des Hauses.</p> <br> <p>Noite e Dia Café unterstützt Gäste, die eine flexible Mahlzeit bevorzugen. Internationale À-la-carte-Gerichte und Set Menus machen es leicht, den eigenen Tagesplan bei uns angenehm zu gestalten.</p> <br> <p>New Furusato bringt japanische Kreativität in unser Angebot. Kaiseki-Menüs, Sashimi und Sushi bieten eine elegante Alternative für Gäste, die den Aufenthalt kulinarisch erweitern möchten.</p> <br> <p>Gallery Lounge schafft einen gemütlichen Treffpunkt. Snacks, Getränke und eine ruhige Atmosphäre machen sie zu einem angenehmen Ort für Gespräche, Pausen und entspannte Momente. Responsible Gaming ist Teil der SJM-Geschichte. SJM Resorts beschreibt sich als Pionier des Responsible Gaming in Macau und verweist darauf, dass eine RG-Motto-Plakette vor mehr als 40 Jahren im Casino Lisboa angebracht wurde.</p> <br> <p>Unser praktischer Anspruch ist klar: Wir möchten Gästen kurze Wege, viele confirmed Services, starke Dining-Optionen, komfortable Freizeitbereiche, SJM-Mitgliedervorteile und eine zentrale Lisboa-Erfahrung bieten.</p> <br> <div style="width:100%; max-width:100%; overflow:hidden;"> <table style="width:100%; max-width:100%; border-collapse:collapse; table-layout:fixed; font-family:Arial, sans-serif; font-size:clamp(9px, 2.2vw, 14px); color:#ffffff; background:transparent;">
+<tr>
+  <th style="width:38%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Bestätigte Information
+  </th>
+  <th style="width:62%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Nützliches Detail
+  </th>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Hotel Shuttle
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Macau Maritime Ferry Terminal &gt; Hotel Lisboa &gt; Grand Lisboa Hotel wird von 08:30 bis 22:30 mit einer Frequenz von 15 bis 20 Minuten aufgeführt.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    SJM Express
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    SJM Express verbindet Grand Lisboa, Lisboa Casino und Oceanus Casino; Macau Border Gate ist von 10:00 bis 23:00 mit 4 bis 30 Minuten Wartezeit aufgeführt.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Ferry Terminal Route
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Für Macau Outer Harbour Ferry Terminal nennt der SJM Express 10:00 bis 23:00 und eine Wartezeit von 6 bis 30 Minuten.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Limousinenservice
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Der Limousinenservice ist für Fahrten zum Macau Ferry Terminal, zur Border Gate, zum Macau International Airport, für Stadttouren und Termine in Macau aufgeführt.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Freizeitangebote
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Hotel Lisboa listet Fitness Room, Indoor Temperature-Controlled Swimming Pool, Shuttle Bus Service, Limousine Service, TurboJet, Shopping Arcade und Tour Service.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Swimming Pool
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Der indoor temperaturkontrollierte Swimming Pool ist für entspannte Schwimmmomente im Hotel Lisboa das ganze Jahr über aufgeführt.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Tour Service
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Die Concierge kann maßgeschneiderte geführte Touren arrangieren, um Macau und bekannte Sehenswürdigkeiten zu entdecken.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Meetings und Bankette
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Hotel Lisboa bietet 1.603 m² beziehungsweise 17.250 sq. ft. Meeting- und Bankettfläche mit neun multifunktionalen Räumen und audiovisueller Ausstattung.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Portas do Sol Events
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Die 470 m² große Portas do Sol Fläche kann laut Hotel Lisboa bis zu 300 Gäste aufnehmen.
+  </td>
+</tr>
+
+<tr>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    Responsible Gaming
+  </td>
+  <td style="border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;">
+    SJM Resorts beschreibt sich als Pionier des Responsible Gaming in Macau und verweist auf eine RG-Motto-Plakette im Casino Lisboa vor mehr als 40 Jahren.
+  </td>
+</tr>
+</table> </div> <br> <p>Nach der Tabelle bleibt unser Fokus auf Komfort und Beweglichkeit. Wir geben Gästen ein Haus, in dem Anreise, Dining, Freizeit, Shopping und Lisboa-Casino-Nähe praktisch zusammenpassen.</p> <br> <p>Unsere Shuttle- und SJM-Express-Verbindungen machen den Besuch besonders angenehm für Gäste, die über Ferry Terminal, Border Gate oder andere zentrale Macau-Punkte kommen.</p> <br> <p>Der Limousinenservice ergänzt die komfortable Seite unseres Hauses. Für besondere Termine, Stadterkundungen oder direkte Transfers bieten wir eine stilvolle Möglichkeit, Macau zu durchqueren. Mit Fitness Room und indoor temperaturkontrolliertem Swimming Pool schaffen wir Raum für Erholung und Aktivität. So kann ein Aufenthalt bei uns nicht nur lebendig, sondern auch ausgeglichen sein.</p> <br> <p>Unsere Meeting- und Bankettflächen unterstützen Gäste, die geschäftliche oder private Anlässe in Macau planen. Moderne audiovisuelle Ausstattung und mehrere multifunktionale Räume geben dem Event eine starke Grundlage.</p> <br> <p>Die Concierge und der Tour Service helfen dabei, Macau gezielt zu entdecken. Wir machen es Gästen leicht, berühmte Sehenswürdigkeiten und lokale Eindrücke in den Aufenthalt einzubauen. Bei uns entsteht ein vielseitiger Macau-Besuch: zentrale Lisboa-Adresse, bestätigte Verkehrsservices, Dining-Auswahl, Shopping Arcade, Freizeitangebote und SJM-Mitgliedervorteile arbeiten zusammen.</p> <br> <p>Hotel Lisboa bleibt damit eine praktische und charaktervolle Wahl für Gäste, die Macau mit Stil, Komfort, Gastronomie und der klassischen Lisboa-Energie erleben möchten.</p></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="faq">
+            <div class="container">
+                <div class="faqBlock block">
+                    <h2 class="faqTitle title"><span>FAQ</span></h2>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="was_ist_hotel_lisboa"/><label
+                            class="faqLabel" for="was_ist_hotel_lisboa">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Was ist Hotel Lisboa? </span></label>
+                        <div class="faqContent">
+                            <p>Hotel Lisboa ist unser bekanntes Casino-Hotel im Central Business District von Macau.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="wann_wurde_hotel_lisboa_erffnet"/><label
+                            class="faqLabel" for="wann_wurde_hotel_lisboa_erffnet">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Wann wurde Hotel Lisboa eröffnet? </span></label>
+                        <div class="faqContent">
+                            <p>Unser Hotel wurde 1970 eröffnet.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="gehrt_casino_lisboa_zu_sjm"/><label
+                            class="faqLabel" for="gehrt_casino_lisboa_zu_sjm">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Gehört Casino Lisboa zu SJM? </span></label>
+                        <div class="faqContent">
+                            <p>Ja, SJM Holdings bestätigt, dass SJM Casino Lisboa besitzt und betreibt.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="wie_viele_zimmer_bietet_hotel_lisboa"/><label
+                            class="faqLabel" for="wie_viele_zimmer_bietet_hotel_lisboa">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Wie viele Zimmer bietet Hotel Lisboa? </span></label>
+                        <div class="faqContent">
+                            <p>Unser Hotel bietet nahe an 1.000 Zimmer und luxuriöse Suiten.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="wo_befindet_sich_hotel_lisboa"/><label
+                            class="faqLabel" for="wo_befindet_sich_hotel_lisboa">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Wo befindet sich Hotel Lisboa? </span></label>
+                        <div class="faqContent">
+                            <p>Unser Hotel liegt an der Avenida de Lisboa im Central Business District von Macau.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="welche_dininghighlights_bietet_hotel_lisboa"/><label
+                            class="faqLabel" for="welche_dininghighlights_bietet_hotel_lisboa">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Welche Dining-Highlights bietet Hotel Lisboa? </span></label>
+                        <div class="faqContent">
+                            <p>Unsere Gäste können mehrere Restaurants und eine Weinauswahl von über 17.000 Labels erleben.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="footerContainer">
+        <div class="footerTop">
+            <div class="footerLogoContainer"><a href="https://hotel-lisboa-casino.com" aria-label="Main page"><img class="footer__logo"
+                                                                                                     src="_assets/images/1778077443-logo-1.svg" alt="" width="140"
+                                                                                                     height="48" /></a></div>
+            <div class="footerPay">
+                <div class="payBlock"><img class="payElementGrey"
+                                           src="./assets/images/footer/payment/masterCard.svg" alt="MasterCard" /><img
+                        class="payElementColor" src="./assets/images/footer/payment/masterCard--color.svg"
+                        alt="MasterCard" title="MasterCard in Hotel Lisboa" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/visa.svg"
+                                           alt="Visa" /><img class="payElementColor"
+                                                             src="./assets/images/footer/payment/visa--color.svg" alt="Visa" title="Visa in Hotel Lisboa" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/neteller.svg"
+                                           alt="Neteller" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/neteller--color.svg" alt="Neteller" title="Neteller in Hotel Lisboa" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/skrill.svg"
+                                           alt="Skrill" /><img class="payElementColor"
+                                                               src="./assets/images/footer/payment/skrill--color.svg" alt="Skrill" title="Skrill in Hotel Lisboa" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/bitcoin.svg"
+                                           alt="Bitcoin" /><img class="payElementColor"
+                                                                src="./assets/images/footer/payment/bitcoin--color.svg" alt="Bitcoin" title="Bitcoin in Hotel Lisboa" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/litecoin.svg"
+                                           alt="Litecoin" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/litecoin--color.svg" alt="Litecoin" title="Litecoin in Hotel Lisboa" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/ethereum.svg"
+                                           alt="Etherium" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/ethereum--color.svg" alt="Etherium" title="Etherium in Hotel Lisboa" /></div>
+            </div>
+        </div>
+        <div class="footerMiddle">
+            <div class="footerOperator">
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gpwa.svg" alt="GPWA" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gpwa--color.svg"
+                        alt="GPWA" title="GPWA in Hotel Lisboa" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambleaware.svg" alt="Gamble Aware" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gambleaware--color.svg"
+                        alt="Gamble Aware" title="Gamble Aware in Hotel Lisboa" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamcare.svg" alt="Game care" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamcare--color.svg"
+                        alt="Game care" title="Game care in Hotel Lisboa" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambling-therapy.svg" alt="Gambling Therapy" /><img
+                        class="operatorElementColor"
+                        src="./assets/images/footer/operator/gambling-therapy--color.svg" alt="Gambling Therapy" title="Gambling Therapy in Hotel Lisboa" />
+                </div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamban.svg" alt="Gamban" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamban--color.svg"
+                        alt="Gamban" title="Gamban in Hotel Lisboa" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/betblocker.svg" alt="BetBlocker" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/betblocker--color.svg"
+                        alt="BetBlocker" title="BetBlocker in Hotel Lisboa" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/itech_labs.svg" alt="ITech Labs" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/itech_labs--color.svg"
+                        alt="ITech Labs" title="ITech Labs in Hotel Lisboa" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/ecogra.svg" alt="Ecogra" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/ecogra--color.svg"
+                        alt="Ecogra" title="Ecogra in Hotel Lisboa" /></div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="footerBottomGroup">
+                <p class="footerBottomAge">18+</p>
+                <p class="footerBottomCopyright">Copyright © <span class="js-current-year"></span> Hotel Lisboa </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var playButtonName = "#play-icon";
+    var informationOutlineName =
+        "#information-outline";
+    var topCasinoButtonText = "Bonus sichern";
+    var welcomeBonusText = "Willkommensbonus";
+    var bonusDetailsButtonText = "Bonus erhalten";
+    var playNowText = "Jetzt spielen";
+    var maximumAmountText = "Maximalbetrag";
+    var wagerText = "Umsatz";
+    var bonusCodeText = "Bonuscode";
+    var depositText = "";
+    var casinoName = "Hotel Lisboa";
+</script>
+
+</body>
+</html>

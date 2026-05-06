@@ -1,0 +1,206 @@
+{
+    "globalSections": {
+        "styles": {
+            "bg": "#ffffff",
+            "lang-select-color": "#222829",
+            "bg-light": "#B58C30",
+            "welcome-bonus-bg": "#dedede",
+            "top-games-hover-fg": "#000000",
+            "main-bg": "#f3f4f1",
+            "text": "#222829",
+            "text-black": "#ffffff",
+            "table-head": "#B58C30",
+            "text-head": "#ffffff",
+            "hero-title-text": "#222829",
+            "welcome-bonus-text": "#fb333d",
+            "yellow": "#634c18",
+            "yellow-button": "#fb333d",
+            "button-text": "#ffffff",
+            "main-button-text": "#ffffff",
+            "border-color": "#efefdc",
+            "casino-cards": "#dedede",
+            "bonus-border-head": "#efefdc",
+            "bonus-border": "#000033",
+            "providers-back": "#B58C30",
+            "faq-label": "#B58C30",
+            "bg-footer": "#c9b482",
+            "copyright": "#e7e7d5",
+            "starColor": "#fbff00",
+            "baseFont": {
+                "value": "Roboto",
+                "isCustom": false
+            },
+            "primaryFont": {
+                "value": "Inter",
+                "isCustom": false
+            }
+        },
+        "icons": {
+            "icon192": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7342"
+        },
+        "header": {
+            "logo": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7343",
+            "imageSizeModifier": 0,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
+            "logoAlt": "Hotel Lisboa Logo"
+        },
+        "nav": {
+            "signUp": "Registrieren",
+            "playNow": "Jetzt spielen"
+        },
+        "footer": {
+            "logo": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7344",
+            "imageSizeModifier": 0,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
+            "copyright": "Hotel Lisboa"
+        }
+    },
+    "pages": [
+        {
+            "id": "de-de-de-DE",
+            "path": "\/",
+            "name": "Немецкий",
+            "languageCode": "de",
+            "regionCode": "DE",
+            "isDefault": true,
+            "sections": {
+                "seo": {
+                    "name": "Hotel Lisboa",
+                    "title": "Hotel Lisboa – Legendäres Casino-Hotel in Macau",
+                    "description": "Entdecken Sie Hotel Lisboa, unser traditionsreiches Casino-Hotel im Herzen von Macau mit markanter Architektur, Casino Lisboa, Gastronomie, Shopping und geprüften Hoteldaten.",
+                    "canonical": "hotel-lisboa-casino.com",
+                    "ogImage": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7345",
+                    "ogImageWidth": 1200,
+                    "ogImageHeight": 630,
+                    "twitterSite": "hotel-lisboa-casino.com",
+                    "favicon": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7346"
+                },
+                "hero": {
+                    "title": "Hotel Lisboa Casino Macau",
+                    "textDesktop": "Exklusives Willkommensangebot von",
+                    "textMobile": "Exklusives Willkommensangebot von",
+                    "playGame": "Spiel starten",
+                    "claimBonus": "Bonus sichern",
+                    "image": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7347",
+                    "imageSizeModifier": 0,
+                    "imageYModifier": -2,
+                    "imageXModifier": 0,
+                    "mobileImage": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7348",
+                    "mobileImageSizeModifier": 0,
+                    "mobileImageYModifier": 2,
+                    "mobileImageXModifier": 0
+                },
+                "topCasino": {
+                    "topCasinoButtonText": "Bonus sichern",
+                    "title": "Top-Casino",
+                    "allCasino": "Alle Casino",
+                    "welcomeBonusText": "Willkommensbonus"
+                },
+                "bonusDetails": {
+                    "title": "Bonusdetails",
+                    "getBonusButtonText": "Bonus erhalten",
+                    "maximumAmountText": "Maximalbetrag",
+                    "wagerText": "Umsatz",
+                    "bonusCodeText": "Bonuscode",
+                    "casino": "Kasino",
+                    "bonuses": "Boni",
+                    "rate": "Rate",
+                    "freeSpins": "Frei Spins",
+                    "moreInfo": "Mehr Info",
+                    "get": "Erhalten",
+                    "refresh": "Aktualisieren"
+                },
+                "advantages": {
+                    "title": "Vorteile",
+                    "advantagesBeforeText": "",
+                    "items": [
+                        "Zentrale Macau-Lage",
+                        "Ikonisches Hoteldesign",
+                        "Casino Lisboa Zugang",
+                        "Große Zimmerauswahl",
+                        "Gourmet-Dining vor Ort"
+                    ],
+                    "advantagesAfterText": "Unsere Vorteile zeigen die geprüften Stärken von Hotel Lisboa: eine zentrale Lage im Geschäftsviertel von Macau, direkten Bezug zu Casino Lisboa, markante Architektur, umfangreiche Unterkunftsoptionen und ein vielseitiges Erlebnis für unsere Gäste.",
+                    "knowMore": "Mehr erfahren",
+                    "appTitle": "Hotel Lisboa App",
+                    "mobile": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7349",
+                    "imageSizeModifier": 0,
+                    "imageYModifier": 0,
+                    "imageXModifier": 0,
+                    "mobileAlt": "Hotel Lisboa App",
+                    "mobileGooglePlayImageTitle": "Hotel Lisboa App",
+                    "mobileIosImageTitle": "Hotel Lisboa App"
+                },
+                "games": {
+                    "playNowText": "Jetzt spielen",
+                    "title": "Beliebte Spiele",
+                    "allGames": "Alle Spiele"
+                },
+                "about": {
+                    "history": {
+                        "title": "Über das Casino",
+                        "description1": "",
+                        "items": [
+                            "Unser Hotel wurde 1970 eröffnet.",
+                            "Unsere Unterkunft bietet nahe an 1.000 Zimmer und Suiten.",
+                            "Unsere Weinauswahl umfasst über 17.000 Labels."
+                        ],
+                        "description2": "Hotel Lisboa ist unser traditionsreiches Casino-Hotel im Herzen von Macau. Das Hotel wurde 1970 eröffnet und wird auf der offiziellen Website als eines der bekanntesten Hotels der Stadt beschrieben, geprägt durch eine markante Architektur mit portugiesischen und chinesischen Designelementen.",
+                        "image": "https:\/\/backend.builder.adkey.org:443\/api\/images\/download\/7350",
+                        "imageSizeModifier": 0,
+                        "imageYModifier": 0,
+                        "imageXModifier": 0,
+                        "imageAlt": "Hotel Lisboa",
+                        "description3": "Unser Standort liegt im Central Business District von Macau. Für unsere Gäste bedeutet das eine praktische Lage: Die offizielle Hotelinformation nennt etwa 5 bis 10 Minuten Fahrzeit zum Macau Outer Harbour Ferry Terminal und etwa 15 bis 20 Minuten zum Macau International Airport.\n\nUnser Haus bietet nahe an 1.000 Zimmer und luxuriöse Suiten, die laut offizieller Hotelbeschreibung mit modernen Einrichtungen ausgestattet sind. Viele Zimmer bieten zudem Ausblicke auf das Südchinesische Meer und wichtige Wahrzeichen von Macau.\n\nCasino Lisboa gehört zum SJM-Portfolio: SJM Holdings bestätigt offiziell, dass SJM Casino Lisboa besitzt und betreibt. Dadurch ist Hotel Lisboa eng mit einem der bekanntesten Casino-Namen auf der Macau-Halbinsel verbunden und bietet unseren Gästen Zugang zu einem etablierten Casino- und Hospitality-Umfeld.\n\nUnsere Gäste können ihren Aufenthalt durch Restaurants, Shopping und Veranstaltungsflächen ergänzen. Hotel Lisboa nennt eine Weinauswahl von über 17.000 Labels, eine Shopping Arcade sowie 1.603 m² Meeting- und Bankettfläche mit neun multifunktionalen Räumen."
+                    }
+                },
+                "custom": {
+                    "customHtml": {
+                        "title": "Lisboa Glanz",
+                        "description": "<p>Bei uns verbindet sich das klassische Macau-Gefühl von Hotel Lisboa mit der Energie des Lisboa Casino in einem traditionsreichen SJM-Umfeld. Wir empfangen unsere Gäste an einer Adresse, die Hotellerie, Gastronomie, Shopping, Freizeitangebote und Casino-Nähe zu einem lebendigen Aufenthalt zusammenführt.<\/p> <br> <p>Unser Haus steht an der Avenida de Lisboa im Herzen von Macau. Diese zentrale Lage macht den Besuch besonders angenehm für Gäste, die Macau erleben, genießen und dabei kurze Wege zwischen Hotel, Restaurants, Unterhaltung und Stadtatmosphäre schätzen. Wir bieten nahezu 1.000 Zimmer und luxuriöse Suiten, die für Erholung und Komfort gestaltet sind. Vom Aufenthalt im Zimmer bis zum kulinarischen Erlebnis begleiten wir unsere Gäste mit einer Umgebung, die auf Entspannung, Stil und praktische Details setzt.<\/p> <br> <p>Unsere Zimmerauswahl umfasst Standard Rooms, Royal Tower Rooms, Royal Suites, Deluxe Suites und Two Bedroom Suites. So geben wir unseren Gästen verschiedene Möglichkeiten, den Aufenthalt passend zum Anlass und zur gewünschten Großzügigkeit zu gestalten.<\/p> <br> <p>Bei uns gehört Gastronomie zu den stärksten Erlebnissen. Hotel Lisboa bietet Gourmet-Dining in Macau und Asien sowie eine umfangreiche Weinsammlung mit mehr als 17.000 Labels, die mit den Restaurants und Lounges unseres Hauses geteilt wird.<\/p> <br> <p>Guincho a Galera bringt eine besondere portugiesische Note in unser kulinarisches Angebot. Das Restaurant ist die erste internationale Niederlassung des Michelin-Stern-Restaurants Fortaleza do Guincho aus Portugal.<\/p> <br> <p>Portas do Sol ergänzt unser Haus mit chinesischer Haute Cuisine, saisonalen Spezialitäten und einem umfangreichen Dim-Sum-Angebot. Damit geben wir Gästen eine elegante Möglichkeit, den Besuch bei uns mit chinesischer Küche auf hohem Niveau zu verbinden.<\/p> <br> <p>Noite e Dia Café sorgt bei uns für flexible All-day-Dining-Momente. Internationale Spezialitäten, À-la-carte-Gerichte und Set Menus machen das Café zu einer praktischen Wahl für verschiedene Tageszeiten.<\/p> <br> <p>New Furusato setzt bei uns einen japanischen Akzent. Kreative Kaiseki-Menüs, hochwertiges Sashimi und Sushi schaffen eine kulinarische Option für Gäste, die ihre Lisboa-Erfahrung mit japanischer Raffinesse ergänzen möchten.<\/p> <br> <p>Gallery Lounge bietet unseren Gästen einen ruhigen und gemütlichen Ort für Snacks und Getränke. Vor oder nach dem Casino-Moment, nach dem Shopping oder zwischen Terminen schaffen wir hier eine entspannte Pause im Haus. Unser Lisboa-Erlebnis wird durch die SJM-Welt gestärkt. SJM Resorts ist einer der sechs in Macau zugelassenen Konzessionäre für Casino-Glücksspiele, und SJM besitzt und betreibt Casino Lisboa.<\/p> <br> <p>Mit der SJM Supreme Card geben wir Mitgliedern Zugang zu exklusiven Vorteilen bei Grand Lisboa Palace Resort, Grand Lisboa Macau, Hotel Lisboa, Jai Alai Oceanus und Partnern von SJM Resorts. So wird der Aufenthalt bei uns Teil eines größeren Mitgliedschaftserlebnisses.<\/p> <br> <p>Die SJM Supreme Card eröffnet vier Mitgliedsstufen und zusätzliche Vorteile. Dazu gehören ausgewiesene Rabatte in mehr als 50 renommierten Dining- und Spa-Outlets, besondere Shopping-Privilegien und ausgewählte Voucher-Angebote nur für Mitglieder.<\/p> <br> <p>Bei uns lässt sich ein Besuch angenehm erweitern: erst das zentrale Lisboa-Ambiente, dann ein Essen in einem unserer Restaurants, ein Moment in der Lounge, ein Spaziergang durch die Shopping Arcade oder eine bequeme Rückkehr ins Zimmer.<\/p> <br> <p>Unser Hotel Lisboa Shopping Arcade bringt Boutiquen für Kleidung, Uhren, Schmuck und Accessoires in das Haus. Damit verbinden wir den Aufenthalt mit Shopping-Komfort, ohne dass Gäste die Lisboa-Atmosphäre verlassen müssen.<\/p> <br> <p>Wir geben dem Besuch eine klare Balance aus Macau-Tradition, urbaner Lage, Gastronomie, Shopping und Casino-Bezug. Diese Kombination macht unser Haus besonders vielseitig für Gäste, die einen kompakten, stilvollen und zentralen Aufenthalt wünschen.<\/p> <br> <p>Bei uns steht das positive Besuchserlebnis im Mittelpunkt. Wir schaffen einen Ort, an dem Gäste Macau genießen, sich kulinarisch verwöhnen lassen, die SJM-Mitgliedervorteile entdecken und den Charakter von Hotel Lisboa spüren können. Unser Vorteil ist die Verbindung aus bekannter Lisboa-Adresse, komfortabler Unterkunft, vielseitiger Gastronomie und der Nähe zu Casino Lisboa. Wir machen es leicht, verschiedene Macau-Erlebnisse in einem Aufenthalt zusammenzuführen.<\/p> <br> <div style=\"width:100%; max-width:100%; overflow:hidden;\"> <table style=\"width:100%; max-width:100%; border-collapse:collapse; table-layout:fixed; font-family:Arial, sans-serif; font-size:clamp(9px, 2.2vw, 14px); color:#ffffff; background:transparent;\">\n<tr>\n  <th style=\"width:38%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Bestätigter Vorteil\n  <\/th>\n  <th style=\"width:62%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Detail zu Hotel Lisboa\n  <\/th>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Adresse\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Hotel Lisboa befindet sich an der Avenida de Lisboa, Macau.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Unterkunft\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Hotel Lisboa bietet nahezu 1.000 Zimmer und luxuriöse Suiten mit modernen Einrichtungen.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Zimmerkategorien\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Auf der offiziellen Website sind Standard Rooms, Royal Tower Rooms, Royal Suites, Deluxe Suites und Two Bedroom Suites aufgeführt.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Gastronomie\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Hotel Lisboa bietet Gourmet-Dining-Erlebnisse sowie eine Weinsammlung mit mehr als 17.000 Labels, die mit Restaurants und Lounges im Haus geteilt wird.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Restaurants und Lounge\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Zu den aufgeführten Dining-Adressen gehören Guincho a Galera, Portas do Sol, Noite e Dia Café, New Furusato und Gallery Lounge.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Casino Lisboa\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    SJM Holdings bestätigt, dass SJM Casino Lisboa besitzt und betreibt.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    SJM Supreme Card\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Die SJM Supreme Card bietet Mitgliedervorteile bei Grand Lisboa Palace Resort, Grand Lisboa Macau, Hotel Lisboa, Jai Alai Oceanus und SJM-Partnern.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Shopping Arcade\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Die Hotel Lisboa Shopping Arcade bietet Boutiquen für Kleidung, Uhren, Schmuck und Accessoires.\n  <\/td>\n<\/tr>\n<\/table> <\/div> <br> <p>Nach der Tabelle geht unser Lisboa-Erlebnis mit derselben Stärke weiter: Wir machen den Aufenthalt vielseitig, indem wir Unterkunft, Gastronomie, Shopping und Casino-Bezug in einer zentralen Macau-Adresse zusammenbringen.<\/p> <br> <p>Unsere kulinarischen Optionen geben Gästen viele Möglichkeiten, ihren Tag zu gestalten. Portugiesische Küche, chinesische Haute Cuisine, internationale Menüs, japanische Spezialitäten und Lounge-Momente liegen bei uns nah beieinander. Mit der Weinsammlung von mehr als 17.000 Labels schaffen wir einen besonderen Rahmen für Genießer. Diese Vielfalt unterstützt unsere Restaurants und Lounges und macht Dining bei uns zu einem starken Bestandteil des Besuchs.<\/p> <br> <p>Die SJM Supreme Card erweitert den Aufenthalt über Hotel Lisboa hinaus. Mitglieder können ausgewählte Vorteile in mehreren SJM-Destinationen entdecken und ihren Macau-Besuch dadurch noch abwechslungsreicher gestalten.<\/p> <br> <p>Unser Haus eignet sich für Gäste, die eine zentrale Lage und ein klassisches Macau-Gefühl schätzen. Bei uns verbindet sich die bekannte Lisboa-Identität mit praktischen Services, komfortablen Zimmern und einer reichen Dining-Auswahl. Wir machen es einfach, den Besuch spontan oder geplant zu genießen. Ein Gast kann bei uns wohnen, speisen, einkaufen, entspannen und die Lisboa-Casino-Atmosphäre in direkter Nähe erleben.<\/p> <br> <p>Mit unserem Hotel, den Restaurants, der Lounge, der Shopping Arcade und der SJM-Verbindung schaffen wir ein vollständiges Macau-Erlebnis, das kompakt, positiv und angenehm zugänglich bleibt.<\/p>"
+                    }
+                },
+                "softwareProviders": {
+                    "title": "Softwareanbieter"
+                },
+                "custom_2": {
+                    "customHtml_2": {
+                        "title": "Lisboa Komfort",
+                        "description": "<p>Bei uns beginnt der praktische Vorteil mit der Lage. Hotel Lisboa liegt an der Avenida de Lisboa und ist über Shuttle-, Limousinen- und lokale Transportangebote gut in den Macau-Aufenthalt integrierbar.<\/p> <br> <p>Wir verbinden unser Haus mit wichtigen Verkehrspunkten. Der Hotel-Shuttle fährt vom Macau Maritime Ferry Terminal über Hotel Lisboa zum Grand Lisboa Hotel und unterstützt damit eine bequeme Ankunft.<\/p> <br> <p>Zusätzlich wird der SJM Express zwischen Grand Lisboa, Lisboa Casino und Oceanus Casino geführt. Damit gehört unsere Lisboa-Adresse zu einem praktischen Netzwerk innerhalb der SJM-Welt auf der Macau-Halbinsel. Für Gäste, die mehr Komfort wünschen, bieten wir einen Limousinenservice. Dieser Service kann Fahrten zum Macau Ferry Terminal, zur Border Gate, zum Macau International Airport, für Stadtrundfahrten oder besondere Termine in Macau unterstützen.<\/p> <br> <p>Unsere Freizeitangebote machen den Aufenthalt angenehm und aktiv. Bei uns finden Gäste einen Fitness Room, einen Indoor Temperature-Controlled Swimming Pool, Shuttle Bus Service, Limousine Service, TurboJet-Informationen, Shopping Arcade und Tour Service. Der Fitness Room ergänzt unser Haus mit Trainingsgeräten in einem gemütlichen Raum. So können Gäste auch während ihres Aufenthalts Bewegung und Komfort miteinander verbinden. Unser indoor temperaturkontrollierter Swimming Pool ist für entspannte Schwimmmomente das ganze Jahr über gedacht. Damit geben wir Gästen eine ruhige Freizeitmöglichkeit direkt im Hotel.<\/p> <br> <p>Der Tour Service macht die Stadtentdeckung leichter. Unsere Concierge kann maßgeschneiderte geführte Touren arrangieren, damit Gäste Macau und berühmte Sehenswürdigkeiten auf angenehme Weise kennenlernen.<\/p> <br> <p>Unsere Shopping Arcade erweitert die praktische Seite des Aufenthalts. Kleidung, Uhren, Schmuck und Accessoires sorgen dafür, dass Gäste Shopping in den Lisboa-Besuch integrieren können.<\/p> <br> <p>Meetings und Banquets gehören ebenfalls zu unserem Angebot. Hotel Lisboa verfügt über 1.603 m² beziehungsweise 17.250 sq. ft. Meeting- und Bankettfläche mit neun multifunktionalen Räumen und moderner audiovisueller Ausstattung.<\/p> <br> <p>Unsere Function Rooms sind geschmackvoll dekoriert und mit audiovisuellen Einrichtungen ausgestattet. Dadurch schaffen wir einen passenden Rahmen für private Feiern, Bankette, Konferenzen und geschäftliche Anlässe.<\/p> <br> <p>Portas do Sol im Hotel Lisboa unterstützt Meetings und Events in einem eleganten Umfeld. Für Hochzeiten und Bankette wird eine 470 m² große Fläche genannt, die bis zu 300 Gäste aufnehmen kann. Auch kulinarisch bleibt der praktische Komfort stark. Gäste können je nach Tageszeit und Anlass zwischen Restaurant, Café, japanischer Küche, chinesischer Küche, portugiesischer Inspiration und Lounge-Atmosphäre wechseln.<\/p> <br> <p>Guincho a Galera verbindet uns mit der portugiesischen Gourmet-Tradition von Fortaleza do Guincho. Dieses Restaurant gibt unserem Haus eine besondere kulinarische Signatur, die sehr gut zur Lisboa-Identität passt.<\/p> <br> <p>Portas do Sol macht chinesische Haute Cuisine bei uns besonders zugänglich. Saisonale Spezialitäten und Dim Sum geben Gästen eine feine Dining-Wahl innerhalb des Hauses.<\/p> <br> <p>Noite e Dia Café unterstützt Gäste, die eine flexible Mahlzeit bevorzugen. Internationale À-la-carte-Gerichte und Set Menus machen es leicht, den eigenen Tagesplan bei uns angenehm zu gestalten.<\/p> <br> <p>New Furusato bringt japanische Kreativität in unser Angebot. Kaiseki-Menüs, Sashimi und Sushi bieten eine elegante Alternative für Gäste, die den Aufenthalt kulinarisch erweitern möchten.<\/p> <br> <p>Gallery Lounge schafft einen gemütlichen Treffpunkt. Snacks, Getränke und eine ruhige Atmosphäre machen sie zu einem angenehmen Ort für Gespräche, Pausen und entspannte Momente. Responsible Gaming ist Teil der SJM-Geschichte. SJM Resorts beschreibt sich als Pionier des Responsible Gaming in Macau und verweist darauf, dass eine RG-Motto-Plakette vor mehr als 40 Jahren im Casino Lisboa angebracht wurde.<\/p> <br> <p>Unser praktischer Anspruch ist klar: Wir möchten Gästen kurze Wege, viele confirmed Services, starke Dining-Optionen, komfortable Freizeitbereiche, SJM-Mitgliedervorteile und eine zentrale Lisboa-Erfahrung bieten.<\/p> <br> <div style=\"width:100%; max-width:100%; overflow:hidden;\"> <table style=\"width:100%; max-width:100%; border-collapse:collapse; table-layout:fixed; font-family:Arial, sans-serif; font-size:clamp(9px, 2.2vw, 14px); color:#ffffff; background:transparent;\">\n<tr>\n  <th style=\"width:38%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Bestätigte Information\n  <\/th>\n  <th style=\"width:62%; border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); text-align:left; vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Nützliches Detail\n  <\/th>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Hotel Shuttle\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Macau Maritime Ferry Terminal &gt; Hotel Lisboa &gt; Grand Lisboa Hotel wird von 08:30 bis 22:30 mit einer Frequenz von 15 bis 20 Minuten aufgeführt.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    SJM Express\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    SJM Express verbindet Grand Lisboa, Lisboa Casino und Oceanus Casino; Macau Border Gate ist von 10:00 bis 23:00 mit 4 bis 30 Minuten Wartezeit aufgeführt.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Ferry Terminal Route\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Für Macau Outer Harbour Ferry Terminal nennt der SJM Express 10:00 bis 23:00 und eine Wartezeit von 6 bis 30 Minuten.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Limousinenservice\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Der Limousinenservice ist für Fahrten zum Macau Ferry Terminal, zur Border Gate, zum Macau International Airport, für Stadttouren und Termine in Macau aufgeführt.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Freizeitangebote\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Hotel Lisboa listet Fitness Room, Indoor Temperature-Controlled Swimming Pool, Shuttle Bus Service, Limousine Service, TurboJet, Shopping Arcade und Tour Service.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Swimming Pool\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Der indoor temperaturkontrollierte Swimming Pool ist für entspannte Schwimmmomente im Hotel Lisboa das ganze Jahr über aufgeführt.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Tour Service\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Die Concierge kann maßgeschneiderte geführte Touren arrangieren, um Macau und bekannte Sehenswürdigkeiten zu entdecken.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Meetings und Bankette\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Hotel Lisboa bietet 1.603 m² beziehungsweise 17.250 sq. ft. Meeting- und Bankettfläche mit neun multifunktionalen Räumen und audiovisueller Ausstattung.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Portas do Sol Events\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Die 470 m² große Portas do Sol Fläche kann laut Hotel Lisboa bis zu 300 Gäste aufnehmen.\n  <\/td>\n<\/tr>\n\n<tr>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    Responsible Gaming\n  <\/td>\n  <td style=\"border:1px solid #ffffff; padding:clamp(5px, 1.5vw, 10px); vertical-align:top; color:#ffffff; background:transparent; word-break:break-word;\">\n    SJM Resorts beschreibt sich als Pionier des Responsible Gaming in Macau und verweist auf eine RG-Motto-Plakette im Casino Lisboa vor mehr als 40 Jahren.\n  <\/td>\n<\/tr>\n<\/table> <\/div> <br> <p>Nach der Tabelle bleibt unser Fokus auf Komfort und Beweglichkeit. Wir geben Gästen ein Haus, in dem Anreise, Dining, Freizeit, Shopping und Lisboa-Casino-Nähe praktisch zusammenpassen.<\/p> <br> <p>Unsere Shuttle- und SJM-Express-Verbindungen machen den Besuch besonders angenehm für Gäste, die über Ferry Terminal, Border Gate oder andere zentrale Macau-Punkte kommen.<\/p> <br> <p>Der Limousinenservice ergänzt die komfortable Seite unseres Hauses. Für besondere Termine, Stadterkundungen oder direkte Transfers bieten wir eine stilvolle Möglichkeit, Macau zu durchqueren. Mit Fitness Room und indoor temperaturkontrolliertem Swimming Pool schaffen wir Raum für Erholung und Aktivität. So kann ein Aufenthalt bei uns nicht nur lebendig, sondern auch ausgeglichen sein.<\/p> <br> <p>Unsere Meeting- und Bankettflächen unterstützen Gäste, die geschäftliche oder private Anlässe in Macau planen. Moderne audiovisuelle Ausstattung und mehrere multifunktionale Räume geben dem Event eine starke Grundlage.<\/p> <br> <p>Die Concierge und der Tour Service helfen dabei, Macau gezielt zu entdecken. Wir machen es Gästen leicht, berühmte Sehenswürdigkeiten und lokale Eindrücke in den Aufenthalt einzubauen. Bei uns entsteht ein vielseitiger Macau-Besuch: zentrale Lisboa-Adresse, bestätigte Verkehrsservices, Dining-Auswahl, Shopping Arcade, Freizeitangebote und SJM-Mitgliedervorteile arbeiten zusammen.<\/p> <br> <p>Hotel Lisboa bleibt damit eine praktische und charaktervolle Wahl für Gäste, die Macau mit Stil, Komfort, Gastronomie und der klassischen Lisboa-Energie erleben möchten.<\/p>"
+                    }
+                },
+                "faq": {
+                    "title": "FAQ",
+                    "items": [
+                        {
+                            "title": "Was ist Hotel Lisboa?",
+                            "answer": "Hotel Lisboa ist unser bekanntes Casino-Hotel im Central Business District von Macau."
+                        },
+                        {
+                            "title": "Wann wurde Hotel Lisboa eröffnet?",
+                            "answer": "Unser Hotel wurde 1970 eröffnet."
+                        },
+                        {
+                            "title": "Gehört Casino Lisboa zu SJM?",
+                            "answer": "Ja, SJM Holdings bestätigt, dass SJM Casino Lisboa besitzt und betreibt."
+                        },
+                        {
+                            "title": "Wie viele Zimmer bietet Hotel Lisboa?",
+                            "answer": "Unser Hotel bietet nahe an 1.000 Zimmer und luxuriöse Suiten."
+                        },
+                        {
+                            "title": "Wo befindet sich Hotel Lisboa?",
+                            "answer": "Unser Hotel liegt an der Avenida de Lisboa im Central Business District von Macau."
+                        },
+                        {
+                            "title": "Welche Dining-Highlights bietet Hotel Lisboa?",
+                            "answer": "Unsere Gäste können mehrere Restaurants und eine Weinauswahl von über 17.000 Labels erleben."
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
